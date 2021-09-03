@@ -38,6 +38,8 @@
   display:inline-block;
 }
 
+
+
 .flex {
   display: flex;
   justify-content: center;
@@ -63,6 +65,8 @@
   left: 0;
   margin: auto;
 }
+
+
 
 .position2 {
   position: relative;

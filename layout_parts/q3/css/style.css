@@ -11,6 +11,7 @@
 .sell-table td,th{
   border:solid #dedede 1px;
   padding: 10px;
+  vertical-align: middle;
 }
 .sell-table th {
   background-color: #2244aa;
@@ -24,11 +25,11 @@
   line-height: 22px;
 }
 
-.sell-table tr:nth-child(odd) {
+tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.sell-table tr:last-child {
+.sell-table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
