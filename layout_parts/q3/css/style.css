@@ -8,7 +8,7 @@
   text-align: center;
   table-layout: fixed;
 }
-.sell-table td,th{
+.sell-table td, .sell-table th{
   border:solid #dedede 1px;
   padding: 10px;
   vertical-align: middle;
@@ -25,7 +25,7 @@
   line-height: 22px;
 }
 
-tr:nth-child(even) {
+.sell-table tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 

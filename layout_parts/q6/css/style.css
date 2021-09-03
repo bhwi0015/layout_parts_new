@@ -8,12 +8,12 @@
   text-align: center;
 }
 
-.text-align {
-  text-align: center;
+.text-align .text {
+  display: inline-block;
 }
 
-.text-align .text  {
-  display: inline-block;
+.text-align {
+  text-align: center;
 }
 
 .margin .text{
@@ -53,11 +53,11 @@
 
 
 
-.position1 {
+.position-box {
   position: relative;
 }
 
-.position1-text {
+.absolute {
   position: absolute;
   top: 0;
   right: 0;
@@ -67,12 +67,7 @@
 }
 
 
-
-.position2 {
-  position: relative;
-} 
-
-.position2-text {
+.transform {
   position: absolute;;
   top: 50%;
   left: 50%;
